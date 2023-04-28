@@ -13,6 +13,10 @@
         grid-area: titulo;
         padding: 5px;
         font-size: 36px;
+        &:hover{
+            font-size: 38px;
+            font-weight: bold;
+        }
     }
 
     .subtitulo {

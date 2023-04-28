@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+header {
+  background-image: linear-gradient(to right, #3cba92, #fee140);
+}
+
 /* diseño footer */
 footer {
   /* gradiente lineal */
@@ -36,6 +40,10 @@ footer p {
   grid-area: titulo;
   padding: 5px;
   font-size: 36px;
+}
+.inicio .titulo:hover {
+  font-size: 38px;
+  font-weight: bold;
 }
 .inicio .subtitulo {
   grid-area: subtitulo;
