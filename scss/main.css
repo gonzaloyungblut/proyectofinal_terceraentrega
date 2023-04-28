@@ -10,6 +10,10 @@ footer {
   /* gradiente lineal */
   background-image: linear-gradient(to left, #3cba92, #fee140);
 }
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
 
 .footers {
   padding: 15px;
@@ -17,14 +21,8 @@ footer {
   align-items: center;
   justify-content: space-evenly;
 }
-
 .footers img {
   height: 40px;
-}
-
-footer p {
-  font-size: 13px;
-  margin: 0;
 }
 
 /* cuerpo del index main */
@@ -34,34 +32,28 @@ footer p {
   justify-items: center;
   background-color: rgb(227, 245, 195);
 }
-
-.titulo {
+.inicio .titulo {
   grid-area: titulo;
   padding: 5px;
   font-size: 36px;
 }
-
-.subtitulo {
+.inicio .subtitulo {
   grid-area: subtitulo;
   font-size: 28px;
 }
-
-.imagen {
+.inicio .imagen {
   grid-area: imagen;
 }
-
-.historia {
+.inicio .imagen img {
+  height: 56vh;
+}
+.inicio .historia {
   grid-area: historia;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-
-.imagen img {
-  height: 56vh;
-}
-
-.historia p {
+.inicio .historia p {
   padding: 17px;
 }
 
@@ -74,17 +66,17 @@ footer p {
     background-color: rgb(227, 245, 195);
     align-items: center;
   }
-  .imagen img {
+  .inicio .imagen img {
     width: 17vw;
     height: 17vw;
   }
-  .titulo {
+  .inicio .titulo {
     font-size: 12px;
   }
-  .subtitulo {
+  .inicio .subtitulo {
     font-size: 12px;
   }
-  .historia p {
+  .inicio .historia p {
     font-size: 8px;
     padding: 0;
     margin: 0;
@@ -135,7 +127,6 @@ footer p {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .fila img {
   height: 30vh;
   padding: 2px;
@@ -195,11 +186,9 @@ footer p {
   align-items: center;
   justify-content: space-evenly;
 }
-
 .formulario h1 {
   font-size: 30px;
 }
-
 .formulario h2 {
   font-size: 25px;
 }/*# sourceMappingURL=main.css.map */

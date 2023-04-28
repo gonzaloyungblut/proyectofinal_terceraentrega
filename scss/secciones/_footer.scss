@@ -1,23 +1,18 @@
 /* diseño footer */
 
-footer{
+footer {
     /* gradiente lineal */
-    background-image: linear-gradient(to left, #3cba92, #fee140); 
- }
- 
- .footers {
-     padding: 15px;
-     display: flex;
-     align-items: center;
-     justify-content: space-evenly;
- }
- 
- .footers img{
-     height: 40px;
- }
- 
- footer p {
-     font-size: 13px;
-     margin: 0;
- }
- 
+    background-image: linear-gradient(to left, #3cba92, #fee140);
+    p {font-size: 13px;
+        margin: 0; }
+}
+
+.footers {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+        height: 40px;
+    }
+}
