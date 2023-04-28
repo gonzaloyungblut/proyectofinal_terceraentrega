@@ -1,0 +1,33 @@
+/* diseño de main de alquiler */
+
+.alquiler {
+    display: grid;
+    grid-template-areas:
+        "alquiler-titulo alquiler-titulo"
+        "alquiler-subtitulo alquiler-subtitulo"
+        "slide texto";
+    height: 56vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(227, 245, 195);
+}
+
+.alquiler-titulo {
+    grid-area: alquiler-titulo;
+    font-size: 30px;
+
+}
+
+.alquiler-subtitulo {
+    grid-area: alquiler-subtitulo;
+    font-size: 24px;
+}
+
+.slide {
+    grid-area: slide;
+}
+
+.texto {
+    grid-area: texto;
+}

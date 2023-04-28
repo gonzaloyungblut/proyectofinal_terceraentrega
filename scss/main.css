@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* diseño footer */
+footer {
+  /* gradiente lineal */
+  background-image: linear-gradient(to left, #3cba92, #fee140);
+}
+
+.footers {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footers img {
+  height: 40px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
+
+/* cuerpo del index main */
+.inicio {
+  display: grid;
+  grid-template-areas: "imagen titulo" "imagen subtitulo" "imagen historia";
+  justify-items: center;
+  background-color: rgb(227, 245, 195);
+}
+
+.titulo {
+  grid-area: titulo;
+  padding: 5px;
+  font-size: 36px;
+}
+
+.subtitulo {
+  grid-area: subtitulo;
+  font-size: 28px;
+}
+
+.imagen {
+  grid-area: imagen;
+}
+
+.historia {
+  grid-area: historia;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.imagen img {
+  height: 56vh;
+}
+
+.historia p {
+  padding: 17px;
+}
+
+/* mobile last a Inicio */
+@media (max-width: 420px) {
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: rgb(227, 245, 195);
+    align-items: center;
+  }
+  .imagen img {
+    width: 17vw;
+    height: 17vw;
+  }
+  .titulo {
+    font-size: 12px;
+  }
+  .subtitulo {
+    font-size: 12px;
+  }
+  .historia p {
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+  }
+}
+/* diseño de main de alquiler */
+.alquiler {
+  display: grid;
+  grid-template-areas: "alquiler-titulo alquiler-titulo" "alquiler-subtitulo alquiler-subtitulo" "slide texto";
+  height: 56vh;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(227, 245, 195);
+}
+
+.alquiler-titulo {
+  grid-area: alquiler-titulo;
+  font-size: 30px;
+}
+
+.alquiler-subtitulo {
+  grid-area: alquiler-subtitulo;
+  font-size: 24px;
+}
+
+.slide {
+  grid-area: slide;
+}
+
+.texto {
+  grid-area: texto;
+}
+
+/* diseño para ventas y terrenos */
+.generico {
+  background-color: rgb(227, 245, 195);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fila img {
+  height: 30vh;
+  padding: 2px;
+}
+
+.terreno img {
+  height: 28vh;
+  padding: 2px;
+  /* animacion de la imagen */
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  /* main de terreno */
+  .generico {
+    background-color: rgb(227, 245, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1px;
+  }
+  .generico h1 {
+    font-size: 10px;
+  }
+  .generico h2 {
+    font-size: 10px;
+  }
+  .generico h3 {
+    font-size: 10px;
+  }
+  .generico p {
+    font-size: 6px;
+  }
+  .terreno img {
+    height: 30vh;
+    padding: 1px;
+  }
+}
+/* contacto y su diseño */
+.formulario {
+  background-color: rgb(227, 245, 195);
+  height: 56vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.formulario h1 {
+  font-size: 30px;
+}
+
+.formulario h2 {
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */

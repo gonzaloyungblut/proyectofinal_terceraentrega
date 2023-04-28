@@ -1,0 +1,16 @@
+/* contacto y su diseño */
+.formulario {
+    background-color: rgb(227, 245, 195);
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formulario h1{
+    font-size: 30px;
+}
+.formulario h2{
+    font-size: 25px;
+}
