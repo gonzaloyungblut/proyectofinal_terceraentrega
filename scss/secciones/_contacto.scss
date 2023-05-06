@@ -1,6 +1,6 @@
 /* contacto y su diseño */
 .formulario {
-    background-image: url('https://www.google.com.ar/url?sa=i&url=https%3A%2F%2Fwww.freepng.fr%2Fpng-8hwpqd%2F&psig=AOvVaw3auOU9krB1aiNZxU8PeNhD&ust=1683228081596000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJi_m7Hv2f4CFQAAAAAdAAAAABAF');
+    background-color: rgb(245, 250, 237);
     height: 56vh;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,18 @@
     }
     h2{
         font-size: 25px;  
+    }
+}
+
+@media (max-width:420px) {
+    .formulario{
+        height: 83vh;
+        h1{
+            margin: 50px;
+        } 
+    }
+    .form-control {
+        font-size: 25px;
     }
 }
 
