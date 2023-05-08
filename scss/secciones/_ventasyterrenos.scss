@@ -24,13 +24,13 @@
 .card{
     --bs-card-spacer-y: 0.55rem;
     img{max-height: 20vh;}
+    
 }
 
 @media (max-width:420px) {
     /* main de terreno */
 
     main{
-        height: 70vh;
         width: auto;
     }
     .generico {
@@ -69,6 +69,8 @@
             margin: 5px;
         }
     }
-
+.row{
+    justify-content: space-around;
+}
 
 }

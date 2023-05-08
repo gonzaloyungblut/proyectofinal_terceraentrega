@@ -3,6 +3,9 @@
 footer {
     /* gradiente lineal */
     background-image: linear-gradient(to left, #3cba92, #fee140);
+    position: absolute;   
+    bottom: 0; 
+    width: 100%;
     p {font-size: 13px;
         margin: 0; }
 }

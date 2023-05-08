@@ -17,6 +17,9 @@ header {
 footer {
   /* gradiente lineal */
   background-image: linear-gradient(to left, #3cba92, #fee140);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 footer p {
   font-size: 13px;
@@ -128,7 +131,7 @@ footer p {
 
 @media (max-width: 420px) {
   main {
-    height: 83vh;
+    height: 100vh;
     background-color: rgb(245, 250, 237);
   }
   .alquiler {
@@ -136,6 +139,7 @@ footer p {
     flex-direction: column;
     background-color: rgb(245, 250, 237);
     justify-content: space-between;
+    height: 85vh;
   }
   .alquiler .alquiler-titulo {
     font-size: 30px;
@@ -180,7 +184,6 @@ footer p {
 @media (max-width: 420px) {
   /* main de terreno */
   main {
-    height: 70vh;
     width: auto;
   }
   .generico {
@@ -213,6 +216,9 @@ footer p {
   .fila img {
     height: 100px;
     margin: 5px;
+  }
+  .row {
+    justify-content: space-around;
   }
 }
 /* contacto y su diseño */
