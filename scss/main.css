@@ -7,7 +7,6 @@
 
 header {
   background-image: linear-gradient(to right, #3cba92, #fee140);
-  min-height: 40px;
 }
 
 .nav-item {
@@ -171,24 +170,13 @@ footer p {
   padding: 2px;
 }
 
-.terreno img {
-  height: 28vh;
-  padding: 2px;
-  /* animacion de la imagen */
-  animation-duration: 3s;
-  animation-name: slidein;
+.card {
+  --bs-card-spacer-y: 0.55rem;
+}
+.card img {
+  max-height: 20vh;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 @media (max-width: 420px) {
   /* main de terreno */
   main {
