@@ -131,7 +131,6 @@ footer p {
 
 @media (max-width: 420px) {
   main {
-    height: 100vh;
     background-color: rgb(245, 250, 237);
   }
   .alquiler {
